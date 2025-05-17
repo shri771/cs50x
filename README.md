@@ -4,6 +4,7 @@ This repository holds a collection of projects that were initially coded as cour
 
 Projects
 --------------------------------------------------------------------------
+Filter: Apply different filter to the imgae.
 Credit: Credit card validation project.
 Mario: A Mario-inspired game or algorithm implementation.
 Plurality: A simulation of a voting system.
