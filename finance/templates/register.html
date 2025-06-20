@@ -1,0 +1,49 @@
+{% extends "layout.html" %} {% block title %} Log In {% endblock %} {% block
+main %}
+<form action="/register" method ="post">
+  <div class="mb-3">
+    <input
+      autocomplete="off"
+      autofocus
+      class="form-control mx-auto w-auto"
+      name="username"
+      placeholder="Username"
+      type="text"
+    />
+  </div>
+  <div class="mb-3">
+    <input
+      class="form-control mx-auto w-auto"
+      name="password"
+      placeholder="Password"
+      type="password"
+    />
+  </div>
+  <div class="mb-3">
+    <input
+      class="form-control mx-auto w-auto"
+      name="confirmation"
+      placeholder="Confirm Password"
+      type="password"
+    />
+  </div>
+  <!-- <script> -->
+  <!---->
+  <!--   document.querySelector('[name="password_confirm"]').addEventListener("keyup", function () { -->
+  <!---->
+  <!--       let pass = document.querySelector('[name="password"]').value; -->
+  <!--       let pass_con = document.querySelector('[name="password_confirm"]').value; -->
+  <!--       let button = document.querySelector("#register"); -->
+  <!--      if (pass == pass_con) { -->
+  <!--        button.removeAttribute("disabled") -->
+  <!--      } else { -->
+  <!--       button.setAttribute("disabled", "true") -->
+  <!--      } -->
+  <!---->
+  <!--   } ); -->
+  </script>
+  <button id="register"  class="btn btn-primary" type="submit">
+    Register
+  </button>
+</form>
+{% endblock %}

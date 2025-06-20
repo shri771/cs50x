@@ -1,0 +1,30 @@
+{% extends "layout.html" %} {% block title %} index {% endblock %} {% block main
+%}
+
+<div class="table">
+  <h2 style="text-align: center">Portfolio</h2>
+  <table style="text-align: middle" class="centered-spaced">
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Shares</th>
+        <th>Price</th>
+        <th>TOTAL</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in data %}
+      <tr>
+        <td>{{ row.symbol }}</td>
+        <td>{{ row.shares }}</td>
+        <td>{{ row.price }}</td>
+        <td>{{ row.total }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <h4 style="color: #2aff66">Portfolio Value {{ value }}</h4>
+  <h6>Balance {{ cash }}</h6>
+</div>
+
+{% endblock %}

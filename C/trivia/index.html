@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Trivia!</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let response = document.querySelectorAll("button");
+        for (let i = 0; i <= 3; i++) {
+          let but = document.querySelector("but");
+          response[i].addEventListener("click", function (event) {
+            if (response[i].textContent == "correct") {
+              response[i].style.backgroundColor = "green";
+              but.innerHTML = "Correct!";
+            } else {
+              response[i].style.backgroundColor = "red";
+              but.innerHTML = "Incorrect";
+            }
+          });
+        }
+
+        e.preventDefault();
+        // Check free response submission
+        document.querySelector("#check").addEventListener("click", function () {
+          let input = document.querySelector("input");
+          if (input.value === "Switzerland") {
+            input.style.backgroundColor = "green";
+            input.parentElement.querySelector(".feedback").innerHTML =
+              "Correct!";
+          } else {
+            input.style.backgroundColor = "red";
+            input.parentElement.querySelector(".feedback").innerHTML =
+              "Incorrect";
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Part 1: Multiple Choice</h2>
+        <h3>
+          What is the approximate ratio of people to sheep in New Zealand?
+        </h3>
+        <p>
+          <but></but>
+        </p>
+        <div>
+          <button class="button_1">wrong1</button>
+          <button class="button_2">wrong2</button>
+          <button class="button_3">correct</button>
+        </div>
+        <hr />
+        <!-- TODO: Add multiple choice question here -->
+      </div>
+
+      <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+                <input type="text"></input>
+                <button id="check">Check Answer</button>
+                <p class="feedback"></p>
+      </div>
+    </div>
+  </body>
+</html>

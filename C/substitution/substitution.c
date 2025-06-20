@@ -51,7 +51,7 @@ int main(int argc, string argv[])
     {
         for (int j = 0; j < 26; j++)
         {
-            if (key[j] == argv[1][i])
+            if (key[j] == toupper(argv[1][i]))
             {
                 counter++;
                 if (counter == 2)
@@ -68,7 +68,7 @@ int main(int argc, string argv[])
     string plaintext = get_string("plaintext: ");
 
     //  print ciphertext
-    printf("%s\n", convert_to_ciphertext(key, plaintext));
+    printf("ciphertext: %s\n", convert_to_ciphertext(key, plaintext));
     return 0;
 
 

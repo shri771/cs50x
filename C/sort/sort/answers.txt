@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: took 53.4 millis, to finish raddom list; took 23.13 millis to fish sorted list;
+
+sort2 uses: merge sort
+
+How do you know?: took 40 millis, to finish radom list; took 39.75 millis to finish sorted list;
+
+sort3 uses: selection sort
+
+How do you know?: took 46 millis, to finish radam list; took 46 milllis to fish sorted list;

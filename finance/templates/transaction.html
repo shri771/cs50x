@@ -1,0 +1,28 @@
+{% extends "layout.html" %} {% block title %} Transacitons {% endblock %} {%
+block main %}
+
+<div class="table">
+  <h2 style="text-align: center">Transacitons</h2>
+  <table style="text-align: middle" class="centered-spaced">
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Shares</th>
+        <th>Type</th>
+        <th>Transacted</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in data %}
+      <tr>
+        <td>{{ row.symbol }}</td>
+        <td>{{ row.shares }}</td>
+        <td>{{ row.type }}</td>
+        <td>{{ row.transacted }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}
