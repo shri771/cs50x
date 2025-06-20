@@ -4,7 +4,7 @@ This is  a stock‑broker simulator that handles buying, selling, portfolio man
 
 ## Other Projects
 
-### Web
+### Web-Apps
 
 * **birthdays**: CRUD app to track and remind birthday events.
 * **homepage**: Personal portfolio site with responsive design.
@@ -36,11 +36,6 @@ This is  a stock‑broker simulator that handles buying, selling, portfolio man
 * **trivia**: Quiz‑game engine for trivia questions.
 * **volume**: Compute the volume of 3D shapes from user input.
 
-### Python
 
-* **sentimental-credit**: Predict credit approval using sentiment analysis.
-* **sentimental-hello**: Demo of sentiment‑reactive greeting app.
-* **sentimental-mario-less**: Simplified Mario‑style ASCII game.
-* **sentimental-readability**: Blend of sentiment and readability analysis.
 
 
