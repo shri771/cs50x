@@ -1,17 +1,46 @@
-Project Collection
--------------------------------------------------------------------------
-This repository holds a collection of projects that were initially coded as coursework at Harvard University. These projects were formerly hosted in a private repository at Harvard, which I don't have admin privileges to share. For the sake of consolidating my work, I have brought these projects over here.
+# Finance Project
 
-Projects
---------------------------------------------------------------------------
-Filter: Apply different filter to the imgae.
-Credit: Credit card validation project.
-Mario: A Mario-inspired game or algorithm implementation.
-Plurality: A simulation of a voting system.
-Readability: A program to measure text readability.
-Scrabble: An implementation of the game Scrabble.
-Sort: Implementations of sorting algorithms.
-Substitution: A project on substitution cipher.
-Tideman: An implementation of the Tideman voting system.
+This is  a stock‑broker simulator that handles buying, selling, portfolio management, and trade history—using ***Java, HTML & CSS*** for the UI, ***Python (Flask)*** for the backend, and ***SQL*** for database.
+
+## Other Projects
+
+### Web
+
+* **birthdays**: CRUD app to track and remind birthday events.
+* **homepage**: Personal portfolio site with responsive design.
+* **songs**: Music catalog UI with search and filter features.
+
+### Python
+
+* **sentimental-credit**: Predict credit approval using sentiment analysis.
+* **sentimental-hello**: Demo of sentiment‑reactive greeting app.
+* **sentimental-mario-less**: Simplified Mario‑style ASCII game.
+* **sentimental-readability**: Blend of sentiment and readability analysis.
+
+### SQL
+
+* **fiftyville**: Database schema and queries for a fictional city.
+* **movies**: SQLite DB of movie info with query examples.
+
+### C
+
+* **filter-more**: Extended `grep`‑style filtering of file contents.
+* **lecture**: Command‑line note‑taking tool for lecture transcripts.
+* **mario**: Console‑based Mario pyramid exercise from CS50.
+* **plurality**: Voting‑algorithm simulator to find election winners.
+* **readability**: Text analyzer computing reading-grade levels.
+* **scrabble**: Score‑calculator for Scrabble tiles.
+* **sort**: Implementations of basic sorting algorithms.
+* **substitution**: Simple cipher encoder/decoder.
+* **tideman**: Ranked‐choice voting tally tool.
+* **trivia**: Quiz‑game engine for trivia questions.
+* **volume**: Compute the volume of 3D shapes from user input.
+
+### Python
+
+* **sentimental-credit**: Predict credit approval using sentiment analysis.
+* **sentimental-hello**: Demo of sentiment‑reactive greeting app.
+* **sentimental-mario-less**: Simplified Mario‑style ASCII game.
+* **sentimental-readability**: Blend of sentiment and readability analysis.
 
 
